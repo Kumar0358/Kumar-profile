@@ -1,5 +1,15 @@
 import portrait from './assets/portrait.jpg'
 import lounge from './assets/lounge.jpg'
+import image1 from './assets/image1.jpg'
+import image2 from './assets/image2.jpg'
+import image3 from './assets/image3.jpg'
+import image4 from './assets/image4.png'
+import image5 from './assets/image5.png'
+import image6 from './assets/image6.png'
+
+import image7 from './assets/image7.jpg'
+import image8 from './assets/image8.jpg'
+
 
 export const profile = {
   name: 'Pacharla Kumara Swamy',
@@ -14,6 +24,16 @@ export const profile = {
   availability: 'Open to conversations',
   heroImage: portrait,
   loungeImage: lounge,
+  Image1: image1,
+  Image2: image2,
+  Image3: image3,
+  Image4: image4,
+  Image5: image5,
+  Image6: image6,
+  
+  Image7: image7,
+  Image8: image8,
+
   mobile: '6303539731',
   fatherMobile: '8179795930',
   ctc: '₹9 LPA',
@@ -188,6 +208,16 @@ export const values = [
 export const gallery = [
   { src: profile.heroImage, cap: 'Portrait' },
   { src: profile.loungeImage, cap: 'Off the clock' },
+  { src: profile.Image1, cap: 'Off the clock' },
+  { src: profile.Image2, cap: 'Off the clock' },
+  { src: profile.Image3, cap: 'Off the clock' },
+  
+  { src: profile.Image4, cap: 'Off the clock' },
+  { src: profile.Image5, cap: 'Off the clock' },
+  { src: profile.Image6, cap: 'Off the clock' },
+  
+  { src: profile.Image7, cap: 'Off the clock' },
+  { src: profile.Image8, cap: 'Off the clock' },
 ]
 
 export const nav = [
